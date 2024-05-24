@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        .exemplo {
+            width: 200px;
+            color: black;
+            background-color: chartreuse;
+        }
+
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        #exemplo1 {
+            text-overflow: clip;
+        }
+        #exemplo2 {
+            text-overflow: ellipsis;
+        }
+        #exemplo3 {
+            text-overflow: '----';
+        }
+    </style>
+</head>
+<body>
+    <h2>Propriedade <code>text-overflow</code></h2>
+    <p>Define a orientação do texto (vertical ou horizontal).</p>
+
+    <i>Exemplo:</i>
+
+    <code>text-overflow: clip;</code>
+    <p id="exemplo1" class="exemplo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero vitae et exercitationem, illum quis, eos reprehenderit ipsum error, sequi ducimus sint eligendi nobis? Cum assumenda vitae magnam inventore repellendus?
+    </p>
+
+    <code>text-overflow: ellipsis;</code>
+    <p id="exemplo2" class="exemplo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus voluptatibus ex pariatur, dolorum provident, maiores praesentium autem deserunt quo rem! Adipisci quos aliquam nisi quia nostrum? Deleniti, aliquam a.
+    </p>
+
+    <code>text-overflow: string;</code>
+    <p id="exemplo3" class="exemplo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eligendi unde quibusdam repudiandae ut voluptas reprehenderit ipsa esse aperiam id, enim, ipsam vero nam! Obcaecati nulla reiciendis qui. Dicta, aspernatur?
+    </p>
+</body>
+</html>

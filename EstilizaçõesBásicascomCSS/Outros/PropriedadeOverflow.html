@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        .exemplo {
+            background-color: orange;
+            border: 3px solid purple;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        #hidden {
+            overflow: hidden;
+        }
+        #scroll {
+            overflow: scroll;
+        }
+        #auto {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Propriedade <code>overflow</code></h2>
+    <p>Controla como o conteúdo deve ser exibido caso ultrapasse os limites do container.</p>
+
+    <i>Exemplos:</i> <br><br><br>
+
+    <code>overflow: visible;</code>
+    <div class="exemplo5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde, in alias voluptas aut nostrum? Amet, ipsam. Error quis reiciendis, fugiat accusantium repellat ducimus animi id, facilis culpa necessitatibus adipisci?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil natus eveniet quod! Doloribus similique veniam tempore, quam blanditiis laboriosam totam. Autem amet eligendi itaque dolorem ipsum a quibusdam incidunt iusto?</p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <code>overflow: hidden</code>
+    <div id="hidden" class="exemplo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id doloremque deserunt itaque aut similique officiis hic fuga, eaque odio consequuntur iusto quae unde tempora tempore numquam dolorum debitis voluptate?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, recusandae laudantium enim eaque odio labore quisquam numquam, mollitia dignissimos vel quidem sint fugit perferendis optio nam deserunt molestias debitis veniam!</p>    
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <code>overflow: scroll</code>
+    <div id="hidden" class="exemplo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id doloremque deserunt itaque aut similique officiis hic fuga, eaque odio consequuntur iusto quae unde tempora tempore numquam dolorum debitis voluptate?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, recusandae laudantium enim eaque odio labore quisquam numquam, mollitia dignissimos vel quidem sint fugit perferendis optio nam deserunt molestias debitis veniam!</p>    
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <code>overflow: auto</code>
+    <div id="hidden" class="exemplo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id doloremque deserunt itaque aut similique officiis hic fuga, eaque odio consequuntur iusto quae unde tempora tempore numquam dolorum debitis voluptate?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, recusandae laudantium enim eaque odio labore quisquam numquam, mollitia dignissimos vel quidem sint fugit perferendis optio nam deserunt molestias debitis veniam!</p>    
+    </div>
+</body>
+</html>

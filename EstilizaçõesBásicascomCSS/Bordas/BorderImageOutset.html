@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        body {
+            font-family: Roboto;
+        }
+
+        .exemplo {
+            background-color: rgb(255, 81, 0);
+            width: 200px;
+            height: 200px;
+            border: 30px solid;
+            margin: 50px auto;
+        }
+
+        #exemplo-resumido {
+            border-image: url('../Bordas/quimica\ fogos\ de\ artificio.webp') 50 / 10px 10px / 2 round;
+        }
+
+        #exemplo-1 {
+            border-image-source: url('../Bordas/baixados.jpeg');
+            border-image-repeat: round;
+            border-image-slice: 40;
+            border-image-outset: 50px;
+        }
+
+        #exemplo-2 {
+            border-image-source: linear-gradient(rgb(41, 243, 23), rgba(10, 247, 42, 0.281));
+            border-image-slice: 10 fill;
+            border-image-outset: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas com Imagens - Outset</h1>
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slices</li>
+    </ul>
+    <h2>Exemplo:</h2>
+    <div id="exemplo-resumido" class="exemplo"></div>
+    <div id="exemplo-1" class="exemplo"></div>
+    <br>
+    <div id="exemplo-2" class="exemplo"></div>
+</body>
+</html>

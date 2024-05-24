@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        body {
+            font-family: Roboto;
+        }
+
+        .exemplo {
+            background-color: magenta;
+            width: 400px;
+            height: 400px;
+            border: 50px solid;
+        }
+
+        #exemplo-1 {
+            border-image-source: url('../Bordas/baixados.jpeg');
+        }
+
+        #exemplo-2 {
+            border-image-source: linear-gradient(red, green);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas com Imagens - Source</h1>
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slices</li>
+    </ul>
+    <h2>Exemplo:</h2>
+    <div id="exemplo-1" class="exemplo"></div>
+    <br>
+    <div id="exemplo-2" class="exemplo"></div>
+</body>
+</html>

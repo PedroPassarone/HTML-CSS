@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        .exemplo {
+            width: 120px;
+            height: 120px;
+            color: black;
+            background-color: chartreuse;
+        }
+        #exemplo-01 {
+            writing-mode: horizontal-tb;
+        }
+        #exemplo-02 {
+            writing-mode: vertical-rl;
+        }
+        #exemplo-03 {
+            writing-mode: vertical-lr;
+        }
+    </style>
+</head>
+<body>
+    <h2>Propriedade <code>writing-mode</code></h2>
+    <p>Define a orientação do texto (vertical ou horizontal)</p>
+
+    <i>Exemplo:</i>
+
+    <code>writing-mode: horizontal-tb;</code>
+    <p id="exemplo-01" class="exemplo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque natus placeat! Deserunt quam ex debitis aspernatur obcaecati. Facere a cupiditate nam accusamus quam tempora esse aut laboriosam voluptatibus mollitia.
+    </p>
+
+    <code>writing-mode: vertical-rl;</code>
+    <p id="exemplo-02" class="exemplo">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam explicabo, commodi molestias sequi deserunt laboriosam facilis, totam dolorem vitae odio quis ad quia itaque nemo velit eaque nulla ab aspernatur!
+    </p>
+
+    <code>writing-mode: vertical-lr;</code>
+    <p id="exemplo-03" class="exemplo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dignissimos explicabo qui voluptates ducimus tempora ipsa aut adipisci iste officia molestiae eius sapiente reprehenderit saepe. Impedit dolor error labore aliquid.
+    </p>
+</body>
+</html>

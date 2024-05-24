@@ -1,0 +1,35 @@
+/*h1{
+    background: brown;
+    color: darkgoldenrod;
+}
+div{
+    background: lightseagreen;
+    color: darkblue;
+}
+li{
+    background: violet;
+}
+#texto-boas-vindas{
+    background: yellow;
+    color: red;
+}*/
+
+* {
+    font-weight: bold;
+}
+
+.seletores-mais-comuns {
+    color: red;
+}
+.texto-maiusculo{
+    text-transform: uppercase;
+}
+
+/*[atrib]*/
+[title="Netflix"] {
+    color: red;
+}
+
+[title="Prime"] {
+    color:blue;
+}

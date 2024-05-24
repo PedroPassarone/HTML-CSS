@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../css/FONTS/Roboto/Roboto-BlackItalic.ttf");
+    /*font-weight: normal;*/
+}
+
+@font-face {
+    font-family: Fritas;
+    src: url("../css/FONTS/Roboto/Roboto-Black.ttf");
+    /*font-weight: bold;*/
+}
+
+@font-face {
+    font-family: Amem;
+    src: url("../css/FONTS/Roboto/Roboto-Thin.ttf");
+    font-weight: lighter;
+}
+
+p {
+    font-family: Amem;
+    font-weight: lighter;
+}
+h1 {
+    font-family: Fritas;
+    /*font-weight: bold;*/
+}

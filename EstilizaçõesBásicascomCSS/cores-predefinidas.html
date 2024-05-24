@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        /*body{
+            background: purple;
+        }*/
+        /*#pre-definidas {
+            color: darkgreen;
+        }
+        li{
+            background:pink;
+        }*/
+        #current-color{
+            /*background-color: transparent;*/
+            color: yellow;
+            border: 2px solid currentColor;
+        }
+        #rgb {
+            background: rgb(187, 41, 90);
+            color: rgb(226, 176, 25);
+        }
+        #rgba {
+            color: rgba(226, 77, 77, 0.877);
+        }
+        #hex {
+            color: #3cb371;
+        }
+        #hsl {
+            color: hsl(73, 90%, 49%);
+            background: hsl(50, 60%, 20%);
+        }
+        #hsla {
+            color: hsla(150, 30%, 50%, .7);
+            background: hsla(330, 50%, 70%, .6);
+        }
+    </style>
+    <body>
+    <h1>Cores</h1>
+    <p>Existem várias formas de definirmos cores utilizando:</p>
+    <ul>
+        <li id="pre-definidas">Cores pré-definidas</li>
+        <li id="current-color">Palavra-chave "currentcolor"</li>
+        <li id="hex">Hexadecimal</li>
+        <li id="hex-transparencia">Hexadecimal com transparência</li>
+        <li id="rgb">RGB</li>
+        <li id="rgba">RGBA</li>
+        <li id="hsl">HSL</li>
+        <li id="hsla">HSLA</li>
+    </ul>
+
+    <h3>HSL</h3>
+    <code>hsl(hue, saturation, lightness)</code>
+    <ul>
+        <li>
+            <b>Hue (matriz):</b> é o grau na roda de cores
+            <ul>
+                <li>0 ou 360 é vermelho</li>
+                <li>120 é verde</li>
+                <li>240 é azul</li>
+            </ul>
+        </li>
+        <li>
+            <b>Saturation (saturação):</b> valor percentual
+            <ul>
+                <li>0% um tom de cinza</li>
+                <li>100% cor total</li>
+            </ul>
+        </li>
+        <li>
+            <b>Lightness (luminosidade):</b> luminosidade da cor
+            <ul>
+                <li>0% é preto</li>
+                <li>100% é branco</li>
+            </ul>
+        </li>
+    </ul>
+        
+    </body>
+
+    </html>
